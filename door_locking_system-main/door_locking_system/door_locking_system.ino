@@ -6,7 +6,7 @@ int pos=0; // position of servo motor
 LiquidCrystal lcd(A4, A5, A3, A2, A1, A0);
 const byte rows=4;
 const byte cols=3;
- 
+//PyProgder added this line
 char key[rows][cols]={
 {'1','2','3'},
 {'4','5','6'},
